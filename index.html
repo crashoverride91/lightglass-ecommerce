@@ -5,11 +5,16 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <!-- CDN AoS Javascript -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;1,300;1,400;1,500&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" />
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
-    <title>Light Glass - Ecommerce Ottica </title>
+    <title>Open Light - Ecommerce Ottica </title>
 </head>
-<body>
+<body class="font">
        <!-- Start Header -->
        <header>
         <!-- Start Nav -->
@@ -53,19 +58,22 @@
     <div class="masthero">
         <div class="container-fluid">
             <div class="row">
-                <div class="col-12 col-lg-12 mt-5 pt-4 text-center ">
-                        <h1 class="mt-5">Open Glass</h1>  
-                        <h3 class="mt-2">Scegli il tuo stile</h3>
+                <div class="col-12 col-lg-12 mt-5 pt-4 text-center " data-aos="fade-right" data-aos-once="true" data-aos-easing="ease-in-sine" data-aos-offset="300">
+                        <h1 class="mt-5 fw-bold heading mb-4"><em>Open Light</em></h1>  
+                        <h4 class="mt-3 mb-4">Scegli il tuo stile</h4>
                 </div>
             </div>
         </div>
-        <div class="container d-flex flex-row-reverse">
+        <div class="container d-flex flex-row-reverse" data-aos="fade-left" data-aos-once="true">
             <div class="row">
                 <div class="col-12 col-lg-12 bg-card-hero p-5">
                     <h5><i>"Gli occhiali rivelano ciò che non viene detto."</i></h5>
                     <p>Coco Chanel</p>
                     <h4>Esplora la nuova collezione Estate</h4>
-                    <button class="btn btn-outline-light">Scopri di più</button>
+                    <div class="d-flex justify-content-center text-center " >
+                        <button class="btn btn-outline-light btn-lg mt-2">Scopri di più</button>
+                    </div>
+                    
                 </div>
             </div>
         </div>
@@ -99,7 +107,7 @@
 
                 <div class="col-12 col-lg-3 category-card bg-card-4">
                     <div class="position-absolute top-50 start-50 translate-middle">
-                        <button class="text-center btn-category ">Occhiali da sole Donna</button>
+                        <button class="text-center btn-category d">Occhiali da sole Donna</button>
                     </div>
                 </div>
             </div>
@@ -117,43 +125,43 @@
                         <!-- Slider 1 Products -->
                       <div class="carousel-item active">
                           <div class="row">
-                              <div class="col-3 col-lg-3">
+                              <div class="col-4 col-lg-3 mb-1">
                                 <div class="card">
-                                    <img src="img/glasses1.jpg" class="d-block w-100" alt="Glass 1">
-                                    <div class="card-body text-center">
-                                      <h5 class="card-title">Occhiali da Sole</h5>
+                                    <img src="img/glasses01.jpg" class="d-block w-100" alt="Glass 1">
+                                    <div class="card-body text-center bline">
+                                      <h5 class="card-title">Occhiali da sole</h5>
                                       <p class="card-text">16 Euro </p>
-                                      <a href="#" class="btn btn-primary">Acquista</a>
+                                      <a href="#"><button class="btn-cardbuy">Acquista</button></a>
                                     </div>
                                   </div>
                               </div>
-                              <div class="col-3 col-lg-3">
+                              <div class="col-4 col-lg-3 mb-1">
                                 <div class="card">
-                                    <img src="img/glasses1.jpg" class="d-block w-100" alt="Glass 1">
-                                    <div class="card-body text-center">
-                                      <h5 class="card-title">Occhiali da Sole</h5>
+                                    <img src="img/glasses02.png" class="d-block w-100" alt="Glass 1">
+                                    <div class="card-body text-center bline">
+                                      <h5 class="card-title">Occhiali da sole</h5>
                                       <p class="card-text">16 Euro </p>
-                                      <a href="#" class="btn btn-primary">Acquista</a>
+                                      <a href="#"><button class="btn-cardbuy">Acquista</button></a>
                                     </div>
                                   </div>
                               </div>
-                              <div class="col-3 col-lg-3">
+                              <div class="col-4 col-lg-3 mb-1">
                                 <div class="card">
-                                    <img src="img/glasses1.jpg" class="d-block w-100" alt="Glass 1">
-                                    <div class="card-body text-center">
-                                      <h5 class="card-title">Occhiali da Sole</h5>
+                                    <img src="img/glasses03.png" class="d-block w-100" alt="Glass 1">
+                                    <div class="card-body text-center bline">
+                                      <h5 class="card-title">Occhiali da sole</h5>
                                       <p class="card-text">16 Euro </p>
-                                      <a href="#" class="btn btn-primary">Acquista</a>
+                                      <a href="#"><button class="btn-cardbuy">Acquista</button></a>
                                     </div>
                                   </div>
                               </div>
-                              <div class="col-3 col-lg-3">
+                              <div class="col-4 col-lg-3 mb-1">
                                 <div class="card">
-                                    <img src="img/glasses1.jpg" class="d-block w-100" alt="Glass 1">
-                                    <div class="card-body text-center">
-                                      <h5 class="card-title">Occhiali da Sole</h5>
+                                    <img src="img/glasses04.png" class="d-block w-100" alt="Glass 1">
+                                    <div class="card-body text-center bline">
+                                      <h5 class="card-title">Occhiali da vista</h5>
                                       <p class="card-text">16 Euro </p>
-                                      <a href="#" class="btn btn-primary">Acquista</a>
+                                      <a href="#"><button class="btn-cardbuy">Acquista</button></a>
                                     </div>
                                   </div>
                               </div>
@@ -164,43 +172,43 @@
                       <!-- Slider 2 Products -->
                       <div class="carousel-item">
                         <div class="row">
-                            <div class="col-3 col-lg-3">
+                            <div class="col-4 col-lg-3 mb-1">
                                 <div class="card">
-                                    <img src="img/glasses1.jpg" class="d-block w-100" alt="Glass 1">
-                                    <div class="card-body text-center">
-                                      <h5 class="card-title">Occhiali da Sole</h5>
+                                    <img src="img/glasses05.jpg" class="d-block w-100" alt="Glass 1">
+                                    <div class="card-body text-center bline">
+                                      <h5 class="card-title">Occhiali da vista</h5>
                                       <p class="card-text">16 Euro </p>
-                                      <a href="#" class="btn btn-primary">Acquista</a>
+                                      <a href="#"><button class="btn-cardbuy">Acquista</button></a>
                                     </div>
                                   </div>
                             </div>
-                            <div class="col-3 col-lg-3">
+                            <div class="col-4 col-lg-3 mb-1">
                                 <div class="card">
-                                    <img src="img/glasses1.jpg" class="d-block w-100" alt="Glass 1">
-                                    <div class="card-body text-center">
-                                      <h5 class="card-title">Occhiali da Sole</h5>
+                                    <img src="img/glasses03.png" class="d-block w-100" alt="Glass 1">
+                                    <div class="card-body text-center bline">
+                                      <h5 class="card-title">Occhiali da sole</h5>
                                       <p class="card-text">16 Euro </p>
-                                      <a href="#" class="btn btn-primary">Acquista</a>
+                                      <a href="#"><button class="btn-cardbuy">Acquista</button></a> 
                                     </div>
                                   </div>
                             </div>
-                            <div class="col-3 col-lg-3">
+                            <div class="col-4 col-lg-3 mb-1">
                                 <div class="card">
-                                    <img src="img/glasses1.jpg" class="d-block w-100" alt="Glass 1">
-                                    <div class="card-body text-center">
-                                      <h5 class="card-title">Occhiali da Sole</h5>
+                                    <img src="img/glasses04.png" class="d-block w-100" alt="Glass 1">
+                                    <div class="card-body text-center bline">
+                                      <h5 class="card-title">Occhiali da vista</h5>
                                       <p class="card-text">16 Euro </p>
-                                      <a href="#" class="btn btn-primary">Acquista</a>
+                                      <a href="#"><button class="btn-cardbuy">Acquista</button></a>
                                     </div>
                                   </div>
                             </div>
-                            <div class="col-3 col-lg-3">
+                            <div class="col-4 col-lg-3 mb-1">
                                 <div class="card">
-                                    <img src="img/glasses1.jpg" class="d-block w-100" alt="Glass 1">
-                                    <div class="card-body text-center">
-                                      <h5 class="card-title">Occhiali da Sole</h5>
+                                    <img src="img/glasses03.png" class="d-block w-100" alt="Glass 1">
+                                    <div class="card-body text-center bline">
+                                      <h5 class="card-title">Occhiali da sole</h5>
                                       <p class="card-text">16 Euro </p>
-                                      <a href="#" class="btn btn-primary">Acquista</a>
+                                      <a href="#"><button class="btn-cardbuy">Acquista</button></a>
                                     </div>
                                   </div>
                             </div>
@@ -211,11 +219,11 @@
                       <!-- Carousel Caption -->
                     </div>
                     <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
-                      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                      <span class="carousel-control-prev-icon bg-primary" aria-hidden="true"></span>
                       <span class="visually-hidden">Previous</span>
                     </button>
                     <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
-                      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                      <span class="carousel-control-next-icon bg-primary" aria-hidden="true"></span>
                       <span class="visually-hidden">Next</span>
                     </button>
                   </div>
@@ -229,7 +237,7 @@
                 <div class="row d-flex justify-content-lg-evenly">
                    <div class="col-6 col-lg-5">
                        <h2>Scopri le offerte del mese</h2>
-                       <h5>Acquista 2 occhiali da vista e riceverai in regalo un paio di occhiali da sole </h5>
+                       <h5>Acquista 2 occhiali da vista e riceverai in regalo un paio di occhiali da sole. </h5>
 
                        <div class="card-offer offer-style-1">
                            <h2 class="mt-5 pt-5 text-center">Sunset</h2>
@@ -270,41 +278,41 @@
                           <div class="row mt-1">
                               <div class="col-4 col-lg-3 mb-1">
                                 <div class="card">
-                                    <img src="img/glasses1.jpg" class="d-block w-100" alt="Glass 1">
-                                    <div class="card-body text-center">
+                                    <img src="img/glasses03.png" class="d-block w-100" alt="Glass 1">
+                                    <div class="card-body text-center bline">
                                       <h5 class="card-title">Occhiali da Sole</h5>
                                       <p class="card-text">16 Euro </p>
-                                      <a href="#" class="btn btn-primary">Acquista</a>
+                                      <a href="#"><button class="btn-cardbuy">Acquista</button></a> 
                                     </div>
                                   </div>
                               </div>
                               <div class="col-4 col-lg-3 mb-1">
                                 <div class="card">
-                                    <img src="img/glasses1.jpg" class="d-block w-100" alt="Glass 1">
-                                    <div class="card-body text-center">
+                                    <img src="img/glasses04.png" class="d-block w-100" alt="Glass 1">
+                                    <div class="card-body text-center bline">
                                       <h5 class="card-title">Occhiali da Sole</h5>
                                       <p class="card-text">16 Euro </p>
-                                      <a href="#" class="btn btn-primary">Acquista</a>
+                                      <a href="#"><button class="btn-cardbuy">Acquista</button></a> 
                                     </div>
                                   </div>
                               </div>
                               <div class="col-4 col-lg-3 mb-1">
                                 <div class="card">
-                                    <img src="img/glasses1.jpg" class="d-block w-100" alt="Glass 1">
-                                    <div class="card-body text-center">
+                                    <img src="img/glasses05.jpg" class="d-block w-100" alt="Glass 1">
+                                    <div class="card-body text-center bline">
                                       <h5 class="card-title">Occhiali da Sole</h5>
                                       <p class="card-text">16 Euro </p>
-                                      <a href="#" class="btn btn-primary">Acquista</a>
+                                      <a href="#"><button class="btn-cardbuy">Acquista</button></a> 
                                     </div>
                                   </div>
                               </div>
                               <div class="col-4 col-lg-3 mb-1">
                                 <div class="card">
-                                    <img src="img/glasses1.jpg" class="d-block w-100" alt="Glass 1">
-                                    <div class="card-body text-center">
+                                    <img src="img/glasses01.jpg" class="d-block w-100" alt="Glass 1">
+                                    <div class="card-body text-center bline">
                                       <h5 class="card-title">Occhiali da Sole</h5>
                                       <p class="card-text">16 Euro </p>
-                                      <a href="#" class="btn btn-primary">Acquista</a>
+                                      <a href="#"><button class="btn-cardbuy">Acquista</button></a> 
                                     </div>
                                   </div>
                               </div>
@@ -315,43 +323,43 @@
                       <!-- Slider 2 Products -->
                       <div class="carousel-item">
                         <div class="row">
-                            <div class="col-4 col-lg-3">
+                            <div class="col-4 col-lg-3 mb-1">
                                 <div class="card">
-                                    <img src="img/glasses1.jpg" class="d-block w-100" alt="Glass 1">
+                                    <img src="img/glasses02.png" class="d-block w-100" alt="Glass 1">
                                     <div class="card-body text-center">
                                       <h5 class="card-title">Occhiali da Sole</h5>
                                       <p class="card-text">16 Euro </p>
-                                      <a href="#" class="btn btn-primary">Acquista</a>
+                                      <a href="#"><button class="btn-cardbuy">Acquista</button></a> 
                                     </div>
                                   </div>
                             </div>
-                            <div class="col-4 col-lg-3">
+                            <div class="col-4 col-lg-3 mb-1">
                                 <div class="card">
-                                    <img src="img/glasses1.jpg" class="d-block w-100" alt="Glass 1">
+                                    <img src="img/glasses03.png" class="d-block w-100" alt="Glass 1">
                                     <div class="card-body text-center">
                                       <h5 class="card-title">Occhiali da Sole</h5>
                                       <p class="card-text">16 Euro </p>
-                                      <a href="#" class="btn btn-primary">Acquista</a>
+                                      <a href="#"><button class="btn-cardbuy">Acquista</button></a> 
                                     </div>
                                   </div>
                             </div>
-                            <div class="col-4 col-lg-3">
+                            <div class="col-4 col-lg-3 mb-1">
                                 <div class="card">
-                                    <img src="img/glasses1.jpg" class="d-block w-100" alt="Glass 1">
+                                    <img src="img/glasses01.jpg" class="d-block w-100" alt="Glass 1">
                                     <div class="card-body text-center">
                                       <h5 class="card-title">Occhiali da Sole</h5>
                                       <p class="card-text">16 Euro </p>
-                                      <a href="#" class="btn btn-primary">Acquista</a>
+                                      <a href="#"><button class="btn-cardbuy">Acquista</button></a> 
                                     </div>
                                   </div>
                             </div>
-                            <div class="col-4 col-lg-3">
+                            <div class="col-4 col-lg-3 mb-1">
                                 <div class="card">
-                                    <img src="img/glasses1.jpg" class="d-block w-100" alt="Glass 1">
+                                    <img src="img/glasses05.jpg" class="d-block w-100" alt="Glass 1">
                                     <div class="card-body text-center">
                                       <h5 class="card-title">Occhiali da Sole</h5>
                                       <p class="card-text">16 Euro </p>
-                                      <a href="#" class="btn btn-primary">Acquista</a>
+                                      <a href="#"><button class="btn-cardbuy">Acquista</button></a> 
                                     </div>
                                   </div>
                             </div>
@@ -361,12 +369,12 @@
                       
                       <!-- Carousel Caption -->
                     </div>
-                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls2" data-bs-slide="prev">
-                      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <button class="carousel-control-prev " type="button" data-bs-target="#carouselExampleControls2" data-bs-slide="prev">
+                      <span class="carousel-control-prev-icon bg-primary" aria-hidden="true"></span>
                       <span class="visually-hidden">Previous</span>
                     </button>
                     <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls2" data-bs-slide="next">
-                      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                      <span class="carousel-control-next-icon bg-primary" aria-hidden="true"></span>
                       <span class="visually-hidden">Next</span>
                     </button>
                   </div>
@@ -386,8 +394,8 @@
                 </div>
                 <div class="col-12 col-lg-6 text-white">
                     <h2 class="mt-2">Sconto del 50% su tutti gli occhiali da sole</h2>
-                    <h3>Non perdere questo occasione</h3>
-                    <button class="btn btn-outline-info btn-lg text-dark fw-bold mt-3">Scopri di più</button>
+                    <h3>Non perdere questo occasione!</h3>
+                    <button class="btn btn-outline-light btn-lg text-primary fw-bold mt-3">Scopri di più</button>
                 </div>
             </div>
         </div>
@@ -433,38 +441,46 @@
                 <div class="row d-flex justify-content-between pt-3">
                     <div class="col-12 col-lg-3 text-white">
                         <h5 class="mb-2">Informazioni</h5>
-                        <p><strong>Open Glass - Ecommerce Ottica</strong></p>
+                        <p><strong>Open Light - Ecommerce Ottica Srl</strong></p>
                         <p><i class="fas fa-map-marker-alt text-white me-2"></i>Indirizzo sede</p>
                         <p><i class="fas fa-phone-alt text-white  me-2"></i>Recapito telefonico</p>
                         <p><i class="fas fa-envelope text-white  me-2"></i>Email</p>
                     </div>
                     <div class="col-12 col-lg-3 text-white">
                         <h5 class="font-weight-bold mb-2">Sitemap</h5>
-                        <p>Chi siamo</p>
-                        <p>Store</p>
-                        <p>Blog</p>
-                        <p>Partners</p>
-                        <p>Contatti</p>
+                        <p class="foot-items">Chi siamo</p>
+                        <p class="foot-items">Store</p>
+                        <p class="foot-items">Blog</p>
+                        <p class="foot-items">Partners</p>
+                        <p class="foot-items">Contatti</p>
                     
                     </div>
                     <div class="col-12 col-lg-3 text-white">
                         <h5 class="font-weight-bold mb-2">Follow us</h5>
                         <div class="social-mobile d-flex justify-content-start">
-                            <p><i class="fab fa-facebook text-white me-2"></i></p>
-                            <p><i class="fab fa-twitter me-2"></i></p>
-                            <p><i class="fab fa-google-plus-g"></i></p>
+                            <img src="img/facebook.png" alt="Social1" class="social-button">
+                            <img src="img/instagram (1).png" alt="Social2" class="social-button">
+                            <img src="img/youtube.png" alt="Social3" class="social-button">
                         </div>
                     </div>
                 </div>
     
                 <div class="row d-flx justify-content-center text-muted mt-5">
-                   © Open Glass Ecommerce | Privacy Policy | Website made by Antonio Lobusto
+                   © Open Light Ecommerce | Privacy Policy | Website made by Antonio Lobusto
                 </div>
             </div>
         </div>
         </footer>
 
-
+        <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+        <script>
+            AOS.init({
+           
+           offset:500,
+           duration:1000,
+       
+       });
+        </script>
     <script class="app.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js" integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf" crossorigin="anonymous"></script>
 </body>
