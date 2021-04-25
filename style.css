@@ -160,11 +160,13 @@ li {
 
     font-size:20px;
     margin-right: 9px;
+    cursor: pointer;
   }
 
   .cart-img{
 
     font-size:20px;
+    cursor: pointer;
     
 
   }
@@ -537,7 +539,7 @@ li {
 
       .bline{
 
-        border-top:0.8px solid rgb(50, 36, 246);
+        border-top:0.8px solid rgba(42, 38, 105, 0.507);
       }
 
      .social-button{
@@ -548,9 +550,38 @@ li {
         cursor: pointer;
      }
 
+     .info-item{
+
+      cursor: pointer;
+     }
+
      .foot-items{
 
         font-weight: 500;
+        cursor:pointer;
      }
         
-    
+     .btn-letter{
+
+      border:1px solid white;
+      background: rgb(251, 34, 34);
+      border-radius: 5px;
+      color:white;
+      padding:5px;
+      width: 30%;
+      font-weight: 600;
+      text-transform: uppercase;
+
+     }
+
+     .btn-letter:hover{
+
+      border:1px solid rgb(251, 34, 34);
+      background: transparent;
+      border-radius: 5px;
+      color:rgb(251, 34, 34);
+      padding:5px;
+      width: 30%;
+      font-weight: 600;
+      text-transform: uppercase;
+     }
