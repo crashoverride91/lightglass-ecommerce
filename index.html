@@ -18,36 +18,48 @@
        <!-- Start Header -->
        <header>
         <!-- Start Nav -->
-        <nav class="d-none d-sm-block d-sm-none d-md-block d-md-none d-lg-block">
-            <div>
-                <img src="./img/logomodel.jpg" alt="logo" width="45x45" class="nav-logo">
-            </div>
+            <nav class="d-none d-sm-block d-sm-none d-md-block d-md-none d-lg-block ">
+                <div>
+                    <img src="./img/logo.png" alt="logo" width="55x55" class="nav-logo">
+                </div>
 
-            
-            <ul> <!-- Items Nav -->
-                <li class="#">Home</li>
-                <li class="#">Chi siamo</li>
-                <li class="#">Store</li>
-                <li class="#">Marchi</li>
-                <li class="#">Contatti</li>
-            </ul>
-        </nav>
+                
+                <ul class="clover-nav"> <!-- Items Nav -->
+                    <li class=""><a href="#" class="text-decoration-none text-white nav-itemix">Home</a></li>
+                    <li><a href="#" class="text-decoration-none text-white">Chi Siamo</a></li>
+                    <li><a href="#" class="text-decoration-none text-white">Store</a></li>
+                    <li><a href="#" class="text-decoration-none text-white">Marchi</a></li>
+                    <li><a href="#" class="text-decoration-none text-white">Contatti</a></li>
+   
+                </ul>
+
+                <div class=" dashboard position-absolute top-0 end-0">
+                    <i class="fas fa-user text-white user-img "></i>
+                    <i class="fas fa-shopping-cart cart-img"></i>
+                </div>
+
+             
+            </nav>
         <!-- End Navbar Desktop -->
          <!-- Navbar Mobile -->
             <nav class="nav-mobile d-lg-none d-xl-block d-xl-none d-xxl-none">
                 <div class="container-fluid d-flex justify-content-between">
-                    <img src="media/logo.png" alt="logo" width="45x45" class="nav-logo mb-3">
+                    <img src="img/logo.png" alt="logo" width="45x45" class="nav-logo mb-3">
+                    <div class=" dashboard">
+                        <i class="fas fa-user text-white user-img "></i>
+                        <i class="fas fa-shopping-cart cart-img"></i>
+                    </div>
                     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navtoggler" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"><i class="fas fa-bars text-white"></i></span>
                     </button>
                 </div>
-                <div class="collapse" id="navtoggler">
-                    <div class="text-center">
-                        <p class="text-white ml-4  nav-item">Home</p>
-                        <p class="text-white ml-4  nav-item">Chi siamo</p>
-                        <p class="text-white ml-4  nav-item">Store</p>
-                        <p class="text-white ml-4  nav-item">Marchi</p>
-                        <p class="text-white ml-4  nav-item">Contatti</p>
+                <div class="collapse clover-mobile" id="navtoggler">
+                    <div class="text-center ul-mobile">
+                        <p class="ml-4  nav-item"><a href="#" class="text-decoration-none text-white">Home</a></p>
+                        <p class="ml-4  nav-item"><a href="#" class="text-decoration-none text-white">Chi Siamo</a></p>
+                        <p class="ml-4  nav-item"><a href="#" class="text-decoration-none text-white">Store</a></p>
+                        <p class="ml-4  nav-item"><a href="#" class="text-decoration-none text-white">Marchi</a></p>
+                        <p class="ml-4  nav-item"><a href="#" class="text-decoration-none text-white">Contatti</a></p>
                     </div>
                 </div>
             </nav>
@@ -57,7 +69,7 @@
     <!-- MastHero -->
     <div class="masthero">
         <div class="container-fluid">
-            <div class="row">
+            <div class="row pt-1">
                 <div class="col-12 col-lg-12 mt-5 pt-4 text-center " data-aos="fade-right" data-aos-once="true" data-aos-easing="ease-in-sine" data-aos-offset="300">
                         <h1 class="mt-5 fw-bold heading mb-4"><em>Open Light</em></h1>  
                         <h4 class="mt-3 mb-4">Scegli il tuo stile</h4>
@@ -71,7 +83,7 @@
                     <p>Coco Chanel</p>
                     <h4>Esplora la nuova collezione Estate</h4>
                     <div class="d-flex justify-content-center text-center " >
-                        <button class="btn btn-outline-light btn-lg mt-2">Scopri di più</button>
+                        <button class="btn-quote mt-2">Scopri di più</button>
                     </div>
                     
                 </div>
@@ -89,25 +101,25 @@
             <div class="row mt-2 mb-3">
                 <div class="col-12 col-lg-3 category-card bg-card-1">
                     <div class="position-absolute top-50 start-50 translate-middle">
-                        <button class="text-center btn-category">Occhiali da vista Uomo</button>
+                        <button class="text-center btn-category text-uppercase">Occhiali da vista Uomo</button>
                     </div>
                 </div>
 
                 <div class="col-12 col-lg-3 category-card bg-card-2">
                     <div class="position-absolute top-50 start-50 translate-middle">
-                        <button class="text-center btn-category">Occhiali da vista Donna</button>
+                        <button class="text-center btn-category text-uppercase">Occhiali da vista Donna</button>
                     </div>
                 </div>
 
                 <div class="col-12 col-lg-3 category-card bg-card-3">
                     <div class="position-absolute top-50 start-50 translate-middle">
-                        <button class="text-center btn-category">Occhiali da sole Uomo</button>
+                        <button class="text-center btn-category text-uppercase">Occhiali da sole Uomo</button>
                     </div>
                 </div>
 
                 <div class="col-12 col-lg-3 category-card bg-card-4">
                     <div class="position-absolute top-50 start-50 translate-middle">
-                        <button class="text-center btn-category d">Occhiali da sole Donna</button>
+                        <button class="text-center btn-category text-uppercase">Occhiali da sole Donna</button>
                     </div>
                 </div>
             </div>
@@ -239,23 +251,26 @@
                        <h2>Scopri le offerte del mese</h2>
                        <h5>Acquista 2 occhiali da vista e riceverai in regalo un paio di occhiali da sole. </h5>
 
-                       <div class="card-offer offer-style-1">
+                       <div class="card-offer offer-style-1" data-aos="fade-right"
+                       data-aos-offset="300"data-aos-easing="ease-in-sine" data-aos-once="true">
                            <h2 class="mt-5 pt-5 text-center">Sunset</h2>
                            <h6 class="text-center">2 occhiali da vista Rayban + 1 Skyline</h6>
                        </div>
 
-                       <div class="card-offer offer-style-2">
+                       <div class="card-offer offer-style-2" data-aos="fade-right"
+                       data-aos-offset="300" data-aos-easing="ease-in-sine" data-aos-once="true">
                         <h2 class="mt-5 pt-5 text-center">Skyline</h2>
                         <h6 class="text-center">2 occhiali da vista Rayban + 1 Skyline</h6>
                     </div>
 
-                    <div class="card-offer offer-style-3">
+                    <div class="card-offer offer-style-3" data-aos="fade-right"
+                    data-aos-offset="300"data-aos-easing="ease-in-sine" data-aos-once="true">
                         <h2 class="mt-5 pt-5 text-center">Crystal</h2>
                         <h6 class="text-center">2 occhiali da vista Rayban + 1 Skyline</h6>
                     </div>
 
                    </div>
-                   <div class="col-6 col-lg-5">
+                   <div class="col-6 col-lg-5" data-aos="fade-left" data-aos-offset="300" data-aos-easing="ease-in-sine" data-aos-once="true">
                         <img src="/img/glasses6.jpg" alt="glasses" class="banner-image w-100">
                    </div>
                 </div>
@@ -389,13 +404,15 @@
     <div class="special-one">
         <div class="container py-3">
             <div class="row">
-                <div class="col-12 col-lg-6">
+                <div class="col-12 col-lg-6 mt-2" data-aos="fade-right"
+                data-aos-offset="200"data-aos-easing="ease-in-sine" data-aos-once="true">
                     <img src="/img/people2.jpg" alt="" class="special-image">
                 </div>
-                <div class="col-12 col-lg-6 text-white">
+                <div class="col-12 col-lg-6 text-white" data-aos="fade-left"
+                data-aos-offset="200"data-aos-easing="ease-in-sine" data-aos-once="true">
                     <h2 class="mt-2">Sconto del 50% su tutti gli occhiali da sole</h2>
                     <h3>Non perdere questo occasione!</h3>
-                    <button class="btn btn-outline-light btn-lg text-primary fw-bold mt-3">Scopri di più</button>
+                    <button class="btn-spot fw-bold mt-3">Scopri di più</button>
                 </div>
             </div>
         </div>
