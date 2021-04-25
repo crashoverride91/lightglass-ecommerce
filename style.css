@@ -196,7 +196,7 @@ li {
 
 .masthero{
 
-    background:linear-gradient(to right, rgba(3, 0, 200, 0.733), rgba(0, 0, 0, 0.657)), url('./img/glasses3.jpg'); 
+    background:linear-gradient(to right, rgba(3, 0, 200, 0.733), rgba(0, 0, 0, 0.657)), url('./media/glasses3.jpg'); 
     width: 100%;
     background-size: cover;
     height: 740px;
@@ -253,7 +253,7 @@ li {
 
     /* CARD Occhiali da vista UOMO */
     .bg-card-1{
-        background:linear-gradient(to right, rgba(3, 0, 200, 0.733), rgba(0, 0, 0, 0.657)), url('./img/glasses2.jpg'); 
+        background:linear-gradient(to right, rgba(3, 0, 200, 0.733), rgba(0, 0, 0, 0.657)), url('./media/glasses2.jpg'); 
         width: 100%;
         background-size: cover;
         height: 400px;
@@ -263,7 +263,7 @@ li {
     }
 
     .bg-card-1:hover{
-        background: url('./img/glasses2.jpg'); 
+        background: url('./media/glasses2.jpg'); 
         background-size: cover;
         filter: contrast(100%);
         
@@ -272,7 +272,7 @@ li {
 
     /* CARD Occhiali da Vista DONNA */
     .bg-card-2{
-        background:linear-gradient(to right, rgba(3, 0, 200, 0.733), rgba(0, 0, 0, 0.657)), url('./img/girlmetal.jpg'); 
+        background:linear-gradient(to right, rgba(3, 0, 200, 0.733), rgba(0, 0, 0, 0.657)), url('./media/girlmetal.jpg'); 
         width: 100%;
         background-size: cover;
         height: 400px;
@@ -281,7 +281,7 @@ li {
     }
 
     .bg-card-2:hover{
-        background: url('./img/girlmetal.jpg'); 
+        background: url('./media/girlmetal.jpg'); 
         background-size: cover;
         filter: contrast(100%);
     }
@@ -292,7 +292,7 @@ li {
     /* CARD Occhiali da  Sole UOMO */
 
     .bg-card-3{
-        background:linear-gradient(to right, rgba(3, 0, 200, 0.733), rgba(0, 0, 0, 0.657)), url('./img/glasses4.jpg'); 
+        background:linear-gradient(to right, rgba(3, 0, 200, 0.733), rgba(0, 0, 0, 0.657)), url('./media/glasses4.jpg'); 
         width: 100%;
         background-size: cover;
         height: 400px;
@@ -301,14 +301,14 @@ li {
     }
 
     .bg-card-3:hover{
-        background: url('./img/glasses4.jpg'); 
+        background: url('./media/glasses4.jpg'); 
         background-size: cover;
         filter: contrast(100%);
     }
 
     /* CARD Occhiali da Sole DONNA */
     .bg-card-4{
-        background:linear-gradient(to right, rgba(3, 0, 200, 0.733), rgba(0, 0, 0, 0.657)), url('./img/glasses3.jpg'); 
+        background:linear-gradient(to right, rgba(3, 0, 200, 0.733), rgba(0, 0, 0, 0.657)), url('./media/glasses3.jpg'); 
         width: 100%;
         background-size: cover;
         height: 400px;
@@ -318,7 +318,7 @@ li {
 
     
     .bg-card-4:hover{
-        background: url('./img/glasses3.jpg'); 
+        background: url('./media/glasses3.jpg'); 
         background-size: cover;
         filter: contrast(100%);
     }
@@ -355,7 +355,7 @@ li {
 
     .parallax {
         /* The image used */
-        background-image: url("/img/parallax1.png");
+        background-image: url("/media/parallax1.png");
         
         
       
